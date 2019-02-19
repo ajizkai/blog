@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>gethugothemes.com/</loc>
+    <lastmod>2018-11-26T14:45:13-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="gethugothemes.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="gethugothemes.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>gethugothemes.com/content/</loc>
+    <lastmod>2018-11-26T14:45:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>gethugothemes.com/</loc>
+    <lastmod>2018-11-26T14:45:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>gethugothemes.com/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="gethugothemes.com/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="gethugothemes.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>gethugothemes.com/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="gethugothemes.com/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="gethugothemes.com/tags/"
+                />
+  </url>
+  
+</urlset>

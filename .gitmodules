@@ -4,3 +4,9 @@
 [submodule "themes/themes/ajonp-hugo-ionic"]
 	path = themes/themes/ajonp-hugo-ionic
 	url = https://github.com/AJONPLLC/ajonp-hugo-ionic
+[submodule "themes/ajonp-hugo-ionic"]
+	path = themes/ajonp-hugo-ionic
+	url = https://github.com/AJONPLLC/ajonp-hugo-ionic
+[submodule "site/themes/ajonp-hugo-ionic"]
+	path = site/themes/ajonp-hugo-ionic
+	url = https://github.com/AJONPLLC/ajonp-hugo-ionic
