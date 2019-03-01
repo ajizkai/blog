@@ -10,3 +10,6 @@
 [submodule "site/themes/ajonp-hugo-ionic"]
 	path = site/themes/ajonp-hugo-ionic
 	url = https://github.com/AJONPLLC/ajonp-hugo-ionic
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
