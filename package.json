@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "docs.muftizakaria.xyz site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "hugo",
+    "preview": "hugo server",
+    "deploy": "firebase deploy --token ${FIREBASE_TOKEN}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajizkai/blog.git"
+  },
+  "author": "ajizkai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajizkai/blog/issue"
+  },
+  "homepage": "https://github.com/ajizkai/blog#readme",
+  "dependencies": {
+    "firebase-tools": "^4.2.1",
+    "hugo-bin": "^0.30.0"
+  }
+}
