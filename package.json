@@ -21,6 +21,6 @@
   "homepage": "https://github.com/ajizkai/blog#readme",
   "dependencies": {
     "firebase-tools": "^4.2.1",
-    "hugo-bin": "^0.54.0"
+    "hugo-bin": "^0.30.0"
   }
 }
