@@ -1,4 +1,4 @@
-baseURL = "."
+baseURL = "/"
 title   = "Hello Friend NG"
 
 DefaultContentLanguage = "en"
