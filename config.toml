@@ -1,5 +1,5 @@
 baseURL = "/"
-title   = "Hello Friend NG"
+title   = "Documentations"
 
 DefaultContentLanguage = "en"
 
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Mufti Zakaria"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -57,7 +57,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Upgrade your skill upgrade your life!"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -82,19 +82,19 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/darkside_004"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:aji@ansible.id"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/ajizkai"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/in/aji-mufti-zakaria-799238119/"
 
 [languages]
   [languages.en]
