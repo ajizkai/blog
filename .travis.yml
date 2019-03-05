@@ -10,7 +10,7 @@ script:
   - npm run cek
   - mkdir hugo
   - cd hugo
-  - curl -L "${URL}/v${HUGO}/hugo_${HUGO}_Linux-64bit.tar.gz" | tar xvf -
+  - curl -L "${URL}/v${HUGO}/hugo_${HUGO}_Linux-64bit.tar.gz" | gunzip | tar xvf -
   - cd ..
   - ./hugo/hugo
   - npm run deploy
