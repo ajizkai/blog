@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "hugo",
-    "cek": "ls themes",
+    "cek": "ls themes/hello-friend-ng",
     "preview": "hugo server",
     "deploy": "firebase deploy --token ${FIREBASE_TOKEN}"
   },
