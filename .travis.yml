@@ -2,15 +2,15 @@ language: node_js
 node_js:
   - "node"
 env:
-  HUGO=0.54
-  URL=https://github.com/gohugo/hugo/releases/download
+  HUGO=0.54.0
+  URL=https://github.com/gohugoio/hugo/releases/download
 install:
   - npm install
 script:
   - npm run cek
   - mkdir hugo
   - cd hugo
-  - curl -L "${URL}/v${HUGO}/hugo_${HUGO}_Linux-64bit.tar.gz" | tar -xvf hugo_${HUGO}_Linux-64bit.tar.gz
+  - curl -L "${URL}/v${HUGO}/hugo_${HUGO}_Linux-64bit.tar.gz" | tar xvf -
   - cd ..
   - ./hugo/hugo
   - npm run deploy
