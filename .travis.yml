@@ -1,9 +1,19 @@
 language: node_js
 node_js:
   - "node"
+env:
+  HUGO=0.54
+  URL=https://github.com/gohugo/hugo/releases/download
+before_install:
+  - npm install -g n
+  - pip install urllib3[secure] awscli --upgrade --user
 install:
   - npm install
 script:
   - npm run cek
-  - npm run build
+  - mkdir hugo
+  - cd hugo
+  - curl -L "${URL}/v${HUGO}/hugo_${HUGO}_Linux-64bit.tar.gz" | gunzip | tar xvf -
+  - cd ..
+  - ./hugo/hugo
   - npm run deploy
