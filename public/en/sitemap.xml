@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/2019/03/devops-introduction/</loc>
+    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2019/03/welcome/</loc>
+    <lastmod>2019-03-05T23:49:38+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -23,8 +33,14 @@
   </url>
   
   <url>
+    <loc>/tags/devops/</loc>
+    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -39,7 +55,14 @@
   </url>
   
   <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -51,6 +74,12 @@
                 hreflang="en"
                 href="/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>/tags/welcome/</loc>
+    <lastmod>2019-03-05T23:49:38+07:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

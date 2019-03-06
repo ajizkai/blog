@@ -6,17 +6,40 @@
         <description>Recent content in Posts on Documentations</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 06 Mar 2019 03:53:48 +0700</lastBuildDate>
+        <lastBuildDate>Wed, 06 Mar 2019 13:55:56 +0700</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Test</title>
-            <link>/posts/2019/03/test/</link>
-            <pubDate>Wed, 06 Mar 2019 03:53:48 +0700</pubDate>
+            <title>Devops Introduction</title>
+            <link>/posts/2019/03/devops-introduction/</link>
+            <pubDate>Wed, 06 Mar 2019 13:55:56 +0700</pubDate>
             
-            <guid>/posts/2019/03/test/</guid>
-            <description>test</description>
-            <content type="html"><![CDATA[<p>test</p>
+            <guid>/posts/2019/03/devops-introduction/</guid>
+            <description>What its devops
+Devops adalah suatu budaya,
+Kata kata diatas mungkin membuat bingung, karena memang devops adalah budaya, disini akan saya jelaskan devops itu budaya apa? Devops merupakan budaya yang baru baru ini lagi populer bagi seorang pencari kerjaan yang bergelut dibidang IT, sekarang ke penjelasan, kalo kita mau bandingkan devops dengan budaya budaya lain, budaya yang paling tepat untuk kita bandingkan adalah budaya konvensional, kedua budaya tersebut memiliki dua fungsi yang sama yaitu bertujuan bisa menghasilkan produk, sebagai contoh web, mobile aplikasi, konfigurasi, dan lain lain.</description>
+            <content type="html"><![CDATA[<p>What its devops</p>
+
+<p>Devops adalah suatu budaya,</p>
+
+<p>Kata kata diatas mungkin membuat bingung, karena memang devops adalah budaya, disini akan saya jelaskan devops itu budaya apa? Devops merupakan budaya yang baru baru ini lagi populer bagi seorang pencari kerjaan yang bergelut dibidang IT, sekarang ke penjelasan, kalo kita mau bandingkan devops dengan budaya budaya lain, budaya yang paling tepat untuk kita bandingkan adalah budaya konvensional, kedua budaya tersebut memiliki dua fungsi yang sama yaitu bertujuan bisa menghasilkan produk, sebagai contoh web, mobile aplikasi, konfigurasi, dan lain lain.</p>
+
+<p>Tujuan budaya itu sama menghasilkan produk, walaupun tujuannya sama mereka memiliki karakteristik yang berbeda, yang membuat karakter mereka berbeda adalah bagaimana proses budaya itu berjalan, kita ambil contoh kasus developer mebuat produk aplikasi, jika mereka menggunakan Budaya Konvensional maka langkah mereka yang pertama adalah membuat source code, kemudian menyimpannya ke SCM (Source Controll Manager) kemudian mereka akan melakukan tes untuk source codenya apakah itu efektif codenya atau belum,  secara manual dan kemudian setelah mereka selesai dengan unit testingnya mereka, mereka akan build aplikasi mereka secara manual dan akan menghasilkan produk mobile aplikasi dan kemudian mereka akan publish aplikasi mereka dengan upload ke google play atau app store dengan manual, dan ketika mereka menggunakan Budaya Devops langkah yang pertama adalah mereka akan simpan source codenya  ke SCM dan setelah itu langkah berikutnya adalah melakukan keefektifan sourcecode mereka dengan secara otomatis dengan menggunakan tools, kalo sourcecode mereka lulus tes maka akan dilanjutkan secara otomatis ke tahap selanjutnya yaitu build, di budaya devops build aplikasi akan dilakukan secara otomatis dan akan menghasilkan mobile aplikasi, kalo sudah menjadi sebuah aplikasi maka akan di publish secara otomatis,</p>
+
+<p>Disini kita bisa lihat betapa ribetnya sistem konvensional harus test secara manual, build manual, publish secara manual, kalo kita badingkan dengan kultur devops yang sebagian besar dilakukan otomatis, kata otomatis itu tidak lepas dari tools yang menjalankan, dan itu akan mempermudah kerja dari para developer,</p>
+
+<p>Kesimpulannya devops merupakan budaya untuk menghasilkan sebuah product yang langkah langkahnya dilakukan secara otomatis sehingga dapat mempercepat produksi,</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Welcome</title>
+            <link>/posts/2019/03/welcome/</link>
+            <pubDate>Tue, 05 Mar 2019 23:49:38 +0700</pubDate>
+            
+            <guid>/posts/2019/03/welcome/</guid>
+            <description>###WELCOME!</description>
+            <content type="html"><![CDATA[<p>###<center>WELCOME!</center></p>
 ]]></content>
         </item>
         
