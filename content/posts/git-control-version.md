@@ -9,7 +9,7 @@ tags:
 ---
 Lab git
 
-<div style="text-align: justify">Git merupakan tools repository yang berguna untuk menyimpan source code, jadi management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah,</div>
+<div style="text-align: justify">Git merupakan tools repository yang berguna untuk menyimpan source code, management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah,</div>
 
 Install git client
 ```
