@@ -16,12 +16,12 @@
             
             <guid>/posts/2019/03/git-control-version/</guid>
             <description>Lab git
-Git merupakan tools repository yang berguna untuk menyimpan source code, jadi management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah, Install git client
+Git merupakan tools repository yang berguna untuk menyimpan source code, management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah, Install git client
  apt install -y git-core #ubuntu yum install -y git-core #centos  konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
  git config –global user.</description>
             <content type="html"><![CDATA[<p>Lab git</p>
 
-<div style="text-align: justify">Git merupakan tools repository yang berguna untuk menyimpan source code, jadi management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah,</div>
+<div style="text-align: justify">Git merupakan tools repository yang berguna untuk menyimpan source code, management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah,</div>
 
 <p>Install git client</p>
 
@@ -43,7 +43,7 @@ Git merupakan tools repository yang berguna untuk menyimpan source code, jadi ma
 
    git add . #menambahkan file from working directory to staging area
 
-   git commit –m “” #membuat perubahan pada repository
+   git commit –m “pesan perubahan” #membuat perubahan pada repository
 
    git push origin master #upload repository to server repository
 
