@@ -6,8 +6,61 @@
         <description>Recent content in Posts on Documentations</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 06 Mar 2019 13:55:56 +0700</lastBuildDate>
+        <lastBuildDate>Wed, 06 Mar 2019 16:21:55 +0700</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Git Control Version</title>
+            <link>/posts/2019/03/git-control-version/</link>
+            <pubDate>Wed, 06 Mar 2019 16:21:55 +0700</pubDate>
+            
+            <guid>/posts/2019/03/git-control-version/</guid>
+            <description>Lab git
+Git merupakan tools repository yang berguna untuk menyimpan source code, jadi management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah, Install git client
+ apt install -y git-core #ubuntu yum install -y git-core #centos  konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
+ git config –global user.</description>
+            <content type="html"><![CDATA[<p>Lab git</p>
+
+<div style="text-align: justify">Git merupakan tools repository yang berguna untuk menyimpan source code, jadi management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah,</div>
+
+<p>Install git client</p>
+
+<pre><code>   apt install -y git-core #ubuntu
+
+   yum install -y git-core #centos
+</code></pre>
+
+<p>konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,</p>
+
+<pre><code>   git config –global user.name #setting username
+
+   git config –global user.email #setting user email
+</code></pre>
+
+<p>command operation git</p>
+
+<pre><code>   git clone *url* #download repository online
+
+   git add . #menambahkan file from working directory to staging area
+
+   git commit –m “” #membuat perubahan pada repository
+
+   git push origin master #upload repository to server repository
+
+   git branch *branchname* #create branch
+
+   git checkout *branchname* #pindah ke branch yang lain  
+
+   git merge *branchname* #menggabungkan beberapa branch
+</code></pre>
+
+<pre><code>   git checkout *commitid* *file* #kembali ke versi sebelumnya
+</code></pre>
+
+<pre><code>   git log
+</code></pre>
+]]></content>
+        </item>
         
         <item>
             <title>Devops Introduction</title>

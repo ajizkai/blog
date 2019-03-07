@@ -6,10 +6,22 @@
     <description>Recent content on Documentations</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 Mar 2019 13:55:56 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 16:21:55 +0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Control Version</title>
+      <link>/posts/2019/03/git-control-version/</link>
+      <pubDate>Wed, 06 Mar 2019 16:21:55 +0700</pubDate>
+      
+      <guid>/posts/2019/03/git-control-version/</guid>
+      <description>Lab git
+Git merupakan tools repository yang berguna untuk menyimpan source code, jadi management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah, Install git client
+ apt install -y git-core #ubuntu yum install -y git-core #centos  konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
+ git config –global user.</description>
+    </item>
     
     <item>
       <title>Devops Introduction</title>

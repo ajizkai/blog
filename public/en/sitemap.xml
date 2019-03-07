@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/2019/03/git-control-version/</loc>
+    <lastmod>2019-03-06T16:21:55+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/2019/03/devops-introduction/</loc>
     <lastmod>2019-03-06T13:55:56+07:00</lastmod>
   </url>
@@ -34,13 +39,13 @@
   
   <url>
     <loc>/tags/devops/</loc>
-    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
+    <lastmod>2019-03-06T16:21:55+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
+    <lastmod>2019-03-06T16:21:55+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -56,13 +61,13 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
+    <lastmod>2019-03-06T16:21:55+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-03-06T13:55:56+07:00</lastmod>
+    <lastmod>2019-03-06T16:21:55+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
