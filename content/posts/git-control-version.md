@@ -29,7 +29,7 @@ command operation git
 
    git add . #menambahkan file from working directory to staging area
 
-   git commit –m “” #membuat perubahan pada repository
+   git commit –m “pesan perubahan” #membuat perubahan pada repository
 
    git push origin master #upload repository to server repository
 
