@@ -8,7 +8,7 @@ tags:
   - devops
   - docker
 ---
-### Docker for CenOS
+### Docker for CentOS
 ```
 yum install -y yum-utils \
   device-mapper-persistent-data \
