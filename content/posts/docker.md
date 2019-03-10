@@ -24,12 +24,12 @@ yum install docker-ce docker-ce-cli containerd.io
 systemctl start docker
 systemctl enable docker
 ```
-# Management permission
+#### Management permission
 ```
 usermod -aG docker muftizakaria
 systemctl restart docker
 ```
-# Management images docker
+#### Management images docker
 download image dan menjalankan image diatas container
 ```
 docker pull helloword
@@ -37,24 +37,24 @@ docker images
 docker run helloword
 ```
 simple case runnung image sebagai container dengan beberapa parameter :
-    1. -i : interactive
-    2. -t : tty
-    3. -d : detach
-    4. -p : mapping port
-    5. --name : nama dari container
+1. -i : interactive
+2. -t : tty
+3. -d : detach
+4. -p : mapping port
+5. --name : nama dari container
 
 ```
 docker pull nginx
 docker run -itd -p 80:80 --name container-nginx nginx
 ```
-# Build Image
+#### Build Image
 buat Dockerfile
 ```
 docker build -t *userdockerhub*/*namaimage* .
 docker login
 docker push *userdockerhub*/*namaimage*
 ```
-# Management Container
+#### Management Container
 ```
 docker ps
 docker ps -a
@@ -64,7 +64,7 @@ docker stop
 docker rm
 docker rmi
 ```
-# Useful Command
+#### Useful Command
 ```
 docker --help
 ```
