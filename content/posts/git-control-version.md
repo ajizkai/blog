@@ -25,24 +25,34 @@ konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi t
 ```
 command operation git
 ```
-   git clone *url* #download repository online
+   #download repository online
+   git clone *url*
 
-   git add . #menambahkan file from working directory to staging area
+   #menambahkan file from working directory to staging area
+   git add .
 
-   git commit –m “pesan perubahan” #membuat perubahan pada repository
+   #membuat perubahan pada repository
+   git commit –m “pesan perubahan”
 
-   git push origin master #upload repository to server repository
 
-   git branch *branchname* #create branch
+   #upload repository to server repository
+   git push origin master 
 
-   git checkout *branchname* #pindah ke branch yang lain  
+   #create branch
+   git branch *branchname*
 
-   git merge *branchname* #menggabungkan beberapa branch
+   #pindah ke branch yang lain
+   git checkout *branchname*   
+
+   #menggabungkan beberapa branch
+   git merge *branchname*
 ```
 
 ```
-   git checkout *commitid* *file* #kembali ke versi sebelumnya
+   #kembali ke versi sebelumnya
+   git checkout *commitid* *file*
 ```
+untuk melihat perubahan pada repository
 ```
    git log
 ```
