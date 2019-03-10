@@ -57,5 +57,9 @@ command operation git
 ```
 untuk melihat perubahan pada repository
 ```
+   #melihat log yang ada di local repository
    git log
+
+   #log lebih simple
+   git log --decorate --oneline
 ```
