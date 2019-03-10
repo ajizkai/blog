@@ -13,15 +13,19 @@ Lab git
 
 Install git client
 ```
-   apt install -y git-core #ubuntu
+   #ubuntu
+   apt install -y git-core
 
-   yum install -y git-core #centos
+   #centos
+   yum install -y git-core
 ```
 konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
 ```
-   git config –global user.name #setting username
+   #setting username
+   git config –global user.name
 
-   git config –global user.email #setting user email
+   #setting user email
+   git config –global user.email
 ```
 command operation git
 ```
@@ -34,9 +38,8 @@ command operation git
    #membuat perubahan pada repository
    git commit –m “pesan perubahan”
 
-
    #upload repository to server repository
-   git push origin master 
+   git push origin master
 
    #create branch
    git branch *branchname*
