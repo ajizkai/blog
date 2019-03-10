@@ -6,6 +6,7 @@ toc: false
 images:
 tags:
   - devops
+  - scm
 ---
 Lab git
 
