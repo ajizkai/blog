@@ -1,7 +1,7 @@
 ---
 title: "Jenkins"
 date: 2019-03-10T17:32:27+07:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
