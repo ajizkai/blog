@@ -6,10 +6,29 @@
     <description>Recent content on Documentations</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 Mar 2019 16:21:55 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2019 17:32:27 +0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jenkins</title>
+      <link>/posts/2019/03/jenkins/</link>
+      <pubDate>Sun, 10 Mar 2019 17:32:27 +0700</pubDate>
+      
+      <guid>/posts/2019/03/jenkins/</guid>
+      <description> jenkins Install java untuk jenkins yum install java-1.8.0-openjdk-devel  Mengunduh jenkins untuk CentOS dari link jenkins #mengunduh jenkins.rpm wget jenkins.rpm #menginstal jenkins rpm -i jenkins.rpm  Manage service jenkins #menjalankan service jenkins systemctl start jenkins #auto start service Jenkins systemctl enable jenkins  Allow port jenkins firewall-cmd --add-port 8080/tcp --permanent firewall-cmd --reload  </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/posts/2019/03/docker/</link>
+      <pubDate>Sun, 10 Mar 2019 17:22:14 +0700</pubDate>
+      
+      <guid>/posts/2019/03/docker/</guid>
+      <description>Docker for CentOS yum install -y yum-utils \ device-mapper-persistent-data \ lvm2 yum-config-manager \ --add-repo \ https://download.docker.com/linux/centos/docker-ce.repo yum install docker-ce docker-ce-cli containerd.io  systemctl start docker systemctl enable docker  Management permission usermod -aG docker muftizakaria systemctl restart docker  Management images docker download image dan menjalankan image diatas container
+docker pull helloword docker images docker run helloword  simple case runnung image sebagai container dengan beberapa parameter : 1. -i : interactive 2.</description>
+    </item>
     
     <item>
       <title>Git Control Version</title>
@@ -19,8 +38,8 @@
       <guid>/posts/2019/03/git-control-version/</guid>
       <description>Lab git
 Git merupakan tools repository yang berguna untuk menyimpan source code, management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah, Install git client
- apt install -y git-core #ubuntu yum install -y git-core #centos  konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
- git config –global user.</description>
+ #ubuntu apt install -y git-core #centos yum install -y git-core  konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
+ #setting username git config –global user.</description>
     </item>
     
     <item>
@@ -31,15 +50,6 @@ Git merupakan tools repository yang berguna untuk menyimpan source code, managem
       <guid>/posts/2019/03/devops-introduction/</guid>
       <description>Devops adalah suatu budaya,
 Kata kata diatas mungkin membuat bingung, karena memang devops adalah budaya, disini akan saya jelaskan devops itu budaya apa? Devops merupakan budaya yang baru baru ini lagi populer bagi seorang pencari kerjaan yang bergelut dibidang IT, sekarang ke penjelasan, kalo kita mau bandingkan devops dengan budaya budaya lain, budaya yang paling tepat untuk kita bandingkan adalah budaya konvensional, kedua budaya tersebut memiliki dua fungsi yang sama yaitu bertujuan bisa menghasilkan produk, sebagai contoh web, mobile aplikasi, konfigurasi, dan lain lain.</description>
-    </item>
-    
-    <item>
-      <title>.</title>
-      <link>/posts/2019/03/</link>
-      <pubDate>Tue, 05 Mar 2019 23:49:38 +0700</pubDate>
-      
-      <guid>/posts/2019/03/</guid>
-      <description>WELCOME!</description>
     </item>
     
     <item>

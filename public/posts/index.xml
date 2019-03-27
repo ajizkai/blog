@@ -6,8 +6,128 @@
         <description>Recent content in Posts on Documentations</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 06 Mar 2019 16:21:55 +0700</lastBuildDate>
+        <lastBuildDate>Sun, 10 Mar 2019 17:32:27 +0700</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Jenkins</title>
+            <link>/posts/2019/03/jenkins/</link>
+            <pubDate>Sun, 10 Mar 2019 17:32:27 +0700</pubDate>
+            
+            <guid>/posts/2019/03/jenkins/</guid>
+            <description> jenkins Install java untuk jenkins yum install java-1.8.0-openjdk-devel  Mengunduh jenkins untuk CentOS dari link jenkins #mengunduh jenkins.rpm wget jenkins.rpm #menginstal jenkins rpm -i jenkins.rpm  Manage service jenkins #menjalankan service jenkins systemctl start jenkins #auto start service Jenkins systemctl enable jenkins  Allow port jenkins firewall-cmd --add-port 8080/tcp --permanent firewall-cmd --reload  </description>
+            <content type="html"><![CDATA[
+
+<h3 id="jenkins">jenkins</h3>
+
+<h4 id="install-java-untuk-jenkins">Install java untuk jenkins</h4>
+
+<pre><code>yum install java-1.8.0-openjdk-devel
+</code></pre>
+
+<h4 id="mengunduh-jenkins-untuk-centos-dari-link-jenkins-https-pkg-jenkins-io-redhat-stable">Mengunduh jenkins untuk CentOS dari link <a href="https://pkg.jenkins.io/redhat-stable/" target="_blank">jenkins</a></h4>
+
+<pre><code>#mengunduh jenkins.rpm
+wget jenkins.rpm
+#menginstal jenkins
+rpm -i jenkins.rpm
+</code></pre>
+
+<h4 id="manage-service-jenkins">Manage service jenkins</h4>
+
+<pre><code>#menjalankan service jenkins
+systemctl start jenkins
+#auto start service Jenkins
+systemctl enable jenkins
+</code></pre>
+
+<h4 id="allow-port-jenkins">Allow port jenkins</h4>
+
+<pre><code>firewall-cmd --add-port 8080/tcp --permanent
+firewall-cmd --reload
+</code></pre>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Docker</title>
+            <link>/posts/2019/03/docker/</link>
+            <pubDate>Sun, 10 Mar 2019 17:22:14 +0700</pubDate>
+            
+            <guid>/posts/2019/03/docker/</guid>
+            <description>Docker for CentOS yum install -y yum-utils \ device-mapper-persistent-data \ lvm2 yum-config-manager \ --add-repo \ https://download.docker.com/linux/centos/docker-ce.repo yum install docker-ce docker-ce-cli containerd.io  systemctl start docker systemctl enable docker  Management permission usermod -aG docker muftizakaria systemctl restart docker  Management images docker download image dan menjalankan image diatas container
+docker pull helloword docker images docker run helloword  simple case runnung image sebagai container dengan beberapa parameter : 1. -i : interactive 2.</description>
+            <content type="html"><![CDATA[
+
+<h3 id="docker-for-centos">Docker for CentOS</h3>
+
+<pre><code>yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
+
+yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+
+yum install docker-ce docker-ce-cli containerd.io
+</code></pre>
+
+<pre><code>systemctl start docker
+systemctl enable docker
+</code></pre>
+
+<h4 id="management-permission">Management permission</h4>
+
+<pre><code>usermod -aG docker muftizakaria
+systemctl restart docker
+</code></pre>
+
+<h4 id="management-images-docker">Management images docker</h4>
+
+<p>download image dan menjalankan image diatas container</p>
+
+<pre><code>docker pull helloword
+docker images
+docker run helloword
+</code></pre>
+
+<p>simple case runnung image sebagai container dengan beberapa parameter :
+1. -i : interactive
+2. -t : tty
+3. -d : detach
+4. -p : mapping port
+5. &ndash;name : nama dari container</p>
+
+<pre><code>docker pull nginx
+docker run -itd -p 80:80 --name container-nginx nginx
+</code></pre>
+
+<h4 id="build-image">Build Image</h4>
+
+<p>buat Dockerfile</p>
+
+<pre><code>docker build -t *userdockerhub*/*namaimage* .
+docker login
+docker push *userdockerhub*/*namaimage*
+</code></pre>
+
+<h4 id="management-container">Management Container</h4>
+
+<pre><code>docker ps
+docker ps -a
+</code></pre>
+
+<pre><code>docker stop
+docker rm
+docker rmi
+</code></pre>
+
+<h4 id="useful-command">Useful Command</h4>
+
+<pre><code>docker --help
+</code></pre>
+]]></content>
+        </item>
         
         <item>
             <title>Git Control Version</title>
@@ -17,47 +137,65 @@
             <guid>/posts/2019/03/git-control-version/</guid>
             <description>Lab git
 Git merupakan tools repository yang berguna untuk menyimpan source code, management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah, Install git client
- apt install -y git-core #ubuntu yum install -y git-core #centos  konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
- git config –global user.</description>
+ #ubuntu apt install -y git-core #centos yum install -y git-core  konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,
+ #setting username git config –global user.</description>
             <content type="html"><![CDATA[<p>Lab git</p>
 
 <div style="text-align: justify">Git merupakan tools repository yang berguna untuk menyimpan source code, management versi dapat dilakukan di git, dalam kasus semisal aplikasi versi terbaru masih ada bug terdeteksi, kita dapat kembali ke versi sebelumnya dengan mudah,</div>
 
 <p>Install git client</p>
 
-<pre><code>   apt install -y git-core #ubuntu
+<pre><code>   #ubuntu
+   apt install -y git-core
 
-   yum install -y git-core #centos
+   #centos
+   yum install -y git-core
 </code></pre>
 
 <p>konfigurasi git untuk sisi developers, konfigurasi ini digunakan untuk memberi tanda pada saat commit sourcecode kita,</p>
 
-<pre><code>   git config –global user.name #setting username
+<pre><code>   #setting username
+   git config –global user.name
 
-   git config –global user.email #setting user email
+   #setting user email
+   git config –global user.email
 </code></pre>
 
 <p>command operation git</p>
 
-<pre><code>   git clone *url* #download repository online
+<pre><code>   #download repository online
+   git clone *url*
 
-   git add . #menambahkan file from working directory to staging area
+   #menambahkan file from working directory to staging area
+   git add .
 
-   git commit –m “pesan perubahan” #membuat perubahan pada repository
+   #membuat perubahan pada repository
+   git commit –m “pesan perubahan”
 
-   git push origin master #upload repository to server repository
+   #upload repository to server repository
+   git push origin master
 
-   git branch *branchname* #create branch
+   #create branch
+   git branch *branchname*
 
-   git checkout *branchname* #pindah ke branch yang lain  
+   #pindah ke branch yang lain
+   git checkout *branchname*   
 
-   git merge *branchname* #menggabungkan beberapa branch
+   #menggabungkan beberapa branch
+   git merge *branchname*
 </code></pre>
 
-<pre><code>   git checkout *commitid* *file* #kembali ke versi sebelumnya
+<pre><code>   #kembali ke versi sebelumnya
+   git checkout *commitid* *file*
 </code></pre>
 
-<pre><code>   git log
+<p>untuk melihat perubahan pada repository</p>
+
+<pre><code>   #melihat log yang ada di local repository
+   git log
+
+   #log lebih simple
+   git log --decorate --oneline
 </code></pre>
 ]]></content>
         </item>
@@ -87,17 +225,6 @@ Kata kata diatas mungkin membuat bingung, karena memang devops adalah budaya, di
 <p><div style="text-align: justify">
     Kesimpulannya devops merupakan budaya untuk menghasilkan sebuah product yang langkah langkahnya   dilakukan secara otomatis sehingga dapat mempercepat produksi,
   </div></p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>.</title>
-            <link>/posts/2019/03/</link>
-            <pubDate>Tue, 05 Mar 2019 23:49:38 +0700</pubDate>
-            
-            <guid>/posts/2019/03/</guid>
-            <description>WELCOME!</description>
-            <content type="html"><![CDATA[<p><center>WELCOME!</center></p>
 ]]></content>
         </item>
         

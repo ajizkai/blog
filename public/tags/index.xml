@@ -6,26 +6,44 @@
     <description>Recent content in Tags on Documentations</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 Mar 2019 16:21:55 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2019 17:32:27 +0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Ci/Cd</title>
+      <link>/tags/ci/cd/</link>
+      <pubDate>Sun, 10 Mar 2019 17:32:27 +0700</pubDate>
+      
+      <guid>/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Devops</title>
       <link>/tags/devops/</link>
-      <pubDate>Wed, 06 Mar 2019 16:21:55 +0700</pubDate>
+      <pubDate>Sun, 10 Mar 2019 17:32:27 +0700</pubDate>
       
       <guid>/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Welcome</title>
-      <link>/tags/welcome/</link>
-      <pubDate>Tue, 05 Mar 2019 23:49:38 +0700</pubDate>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Sun, 10 Mar 2019 17:22:14 +0700</pubDate>
       
-      <guid>/tags/welcome/</guid>
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scm</title>
+      <link>/tags/scm/</link>
+      <pubDate>Wed, 06 Mar 2019 16:21:55 +0700</pubDate>
+      
+      <guid>/tags/scm/</guid>
       <description></description>
     </item>
     
