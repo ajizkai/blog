@@ -20,7 +20,7 @@ wget jenkins.rpm
 #menginstal jenkins
 rpm -i jenkins.rpm
 ```
-#### Manage service jenkins
+#### Manage service jenkins di CentOS
 ```
 #menjalankan service jenkins
 systemctl start jenkins
