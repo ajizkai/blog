@@ -9,7 +9,7 @@ tags:
   - ci/cd
 ---
 ### jenkins
-#### Install java untuk jenkins
+#### Install java 
 ```
 yum install java-1.8.0-openjdk-devel
 ```
