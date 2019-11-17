@@ -7,6 +7,7 @@ env:
 install:
   - npm install
 script:
+  - pwd
   - npm run cek
   - mkdir hugo
   - cd hugo
