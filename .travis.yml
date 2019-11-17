@@ -9,6 +9,8 @@ install:
   - npm install
 script:
   - curl -L "${URL}/v${HUGO}/hugo_${HUGO}_Linux-64bit.tar.gz" | gunzip | tar xvf -
+  - npm run test
   - npm run cek
   - npm run build
+  - npm run preview
   - npm run deploy
